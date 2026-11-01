@@ -17,6 +17,12 @@ This package contains no runtime guards, credentials, integrations, or executabl
 
 ## Status
 
-Version 0.1.0, public-review draft. It is adapted from a privately used procedure; this public adaptation has not itself undergone a separate execution trial. No benchmark, certification, or production-safety guarantee is claimed. The acceptance checks have no recorded passing results in this package.
+Version 0.1.0, public-review draft. The procedure is unchanged by this documentation update.
 
-Internal project details, host paths, operational data, and audit findings are intentionally excluded. Sharing this draft does not imply endorsement by anyone mentioned above.
+A limited decision-only pilot on 2026-11-01 compared agents given this public package with agents not given it. On six synthetic scenarios, with two independent repetitions per condition, both conditions produced 12/12 correct answers with sufficient justification. Neither condition produced a critical error or an unnecessary refusal of an allowed action.
+
+**The pilot did not demonstrate an incremental benefit from the skill.** Both conditions reached the ceiling of this test. This is not evidence that the skill is useless in other settings, or that an automation is safe.
+
+Read the [pilot method, results and limitations](references/pilot-2026-11-01.md). The pilot tested decisions from stated facts, not real workflow execution, technical enforcement or a real human reviewer's ability to catch errors. It does not count as a passing implementation of the sixteen acceptance checks. No benchmark generalisation, certification or production-safety guarantee is claimed.
+
+Internal project details, host paths, operational data and private operational audit findings are intentionally excluded. Sharing this draft does not imply endorsement by anyone mentioned above.
